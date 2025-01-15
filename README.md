@@ -68,15 +68,22 @@ public class Bike {
 
 ### XML Configuration
 
-#### applicationContext.xml
+#### applicationContext.xml : autowire using byName
 ```xml
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-	<!-- Bean definitions and autowiring configurations -->
-
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- Bean Definition -->
+    <bean id="person-bean" class="com.jsp.springcore.autowireing.Person" autowire="byName"></bean>
+    
+    
+    <bean id="bike" class="com.jsp.springcore.autowireing.Bike" ></bean> 
+    
+  
+    
 </beans>
 ```
 
