@@ -59,7 +59,6 @@ public class Person {
 
 #### Bike.java
 ```java
-// filepath: /e:/J Spider Basavangudi/Advance Java WorkSpace/Spring/Spring Core/SpringCoreAutowireing/src/main/java/com/jsp/springcore/autowireing/Bike.java
 package com.jsp.springcore.autowireing;
 
 public class Bike {
