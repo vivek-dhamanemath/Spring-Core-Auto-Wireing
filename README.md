@@ -70,7 +70,6 @@ public class Bike {
 
 #### applicationContext.xml
 ```xml
-<!-- filepath: /e:/J Spider Basavangudi/Advance Java WorkSpace/Spring/Spring Core/SpringCoreAutowireing/src/main/resources/applicationContext.xml -->
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
